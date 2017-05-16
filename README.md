@@ -119,9 +119,8 @@ Generated output files are \*.sam (alignments) and intermediate file with detect
 
 #### Suggested settings for Pacbio and ONT reads
 
-For higher quality reads, it is recommened to use ```--kmer_size 3```. It run 2-3x faster than ```--kmer_size 4``` without noticable perfromane loss.  
-For ONT reads, we suggest the setting of ```--window_size 100 --window_shift 10 ```, and  
-for PacBio reads, the setting of ```--window_size 250 --window_shift 50 ``` for optimal performance.
+For higher quality reads (read accuracy > 85%), it is recommened to use ```--kmer_size 3```. It run 2-3x faster than ```--kmer_size 4``` without noticable perfromane loss.  
+For ONT reads, we suggest the setting of ```--window_size 100 --window_shift 10 ```, and for PacBio reads, the setting of ```--window_size 250 --window_shift 50 ``` for optimal performance.
 
 ## System Requirement
 
@@ -133,7 +132,7 @@ Under review.
 
 ## License
 
-Academic [license](S15-309_academic_software_license.pdf) 
+Academic [license](S15-309_academic_software_license.pdf). 
 
 Please contact [Wong lab](http://web.stanford.edu/group/wonglab/index.html) for any commercial license.
 
